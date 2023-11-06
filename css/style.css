@@ -39,11 +39,11 @@ main > section:nth-child(2n){
     width: calc((100% / 6) * 4);
 }
 
-.my-col-2-5 {
+.col-2-5 {
     width: calc((100% / 5) * 2);
 }
 
-.my-col-3-5 {
+.col-3-5 {
     width: calc((100% / 5) * 3);
 }
 
@@ -93,5 +93,24 @@ main > section:nth-child(2n){
     background-color: #EE82EE;
     border: 1px dashed black;
     min-height: 400px;
+}
+
+.debug main section .row .col-2-5 {
+    background-color: #FFC0CB;
+    border: 1px dashed black;
+    min-height: 400px;
+}
+
+.debug main section .row .col-3-5 {
+    background-color: #1E90FF;
+    border: 1px dashed black;
+    min-height: 400px;
+}
+
+.debug .green-container {
+    width: 100%;
+    background-color: green;
+    border: 1px dashed black;
+    min-height: 500px;
 }
 
