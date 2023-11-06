@@ -136,3 +136,34 @@ footer {
     min-height: 500px;
 }
 
+.debug .footer-top-row {
+    background-color: #F08080;
+    min-height: 500px;
+}
+
+.debug .footer-top-row > * {
+    border: 1px dashed black;
+}
+
+.debug .footer-top-row .footer-small-row {
+    background-color: #20B2AA;
+}
+
+.debug .footer-top-row .footer-small-row > *{
+    border: 1px dashed white;
+    min-height: 500px;
+}
+
+.debug .footer-bottom-row {
+    height: 60px;
+    background-color: #7FFFD4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.debug .footer-bottom-row > * {
+    height: 30px;
+    background-color: #FFB6C1;
+    border: 1px dashed black;    
+}
