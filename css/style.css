@@ -67,6 +67,20 @@ main > section:nth-child(2n){
 
 .header-top .main-menu-container > * {
     padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header-top .main-menu-container .menu-nav {
+    justify-content: center;    
+}
+
+.header-top .main-menu-container .menu-nav ul li {
+    display: inline-block;
+}
+
+.header-top .main-menu-container .login {
+    justify-content: end; 
 }
 
 .header-bottom {
@@ -91,6 +105,11 @@ footer {
 
 .footer-bottom {
     padding: 20px 0;
+}
+
+.footer-bottom .footer-bottom-row > * {
+    display: flex;
+    align-items: center;
 }
 
 /*   DEBUG   */
