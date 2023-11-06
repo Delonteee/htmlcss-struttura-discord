@@ -8,6 +8,27 @@
 
 /*   GENERAL   */
 
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-small {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 /*   HEADER   */
 
 /*   MAIN   */
+
+/*   DEBUG   */
